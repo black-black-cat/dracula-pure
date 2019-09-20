@@ -1,0 +1,2 @@
+# dracula-pure
+vscode theme
