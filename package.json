@@ -1,0 +1,21 @@
+{
+    "name": "dracula-pure",
+    "displayName": "Dracula Pure",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula Pure",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dracula Pure-color-theme.json"
+            }
+        ]
+    }
+}
