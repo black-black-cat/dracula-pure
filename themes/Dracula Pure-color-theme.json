@@ -53,7 +53,7 @@
 		},
 		{
 			"name": "Built-in constant",
-			"scope": "constant.language",
+			"scope": "constant.language, variable.language.this",
 			"settings": {
 				"foreground": "#bd93f9"
 			}
