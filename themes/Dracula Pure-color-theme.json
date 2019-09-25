@@ -72,7 +72,8 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#f8f8f2"
 			}
 		},
 		{
