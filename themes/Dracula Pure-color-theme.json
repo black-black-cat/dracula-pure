@@ -90,7 +90,8 @@
 				"constant.character.escaped",
 				"constant.character.escape",
 				"string source",
-				"string source.ruby"
+				"string source.ruby",
+				"punctuation.definition.template-expression"
 			],
 			"settings": {
 				"fontStyle": "",
