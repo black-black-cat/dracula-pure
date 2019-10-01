@@ -85,6 +85,12 @@
 			}
 		},
 		{
+			"scope": "string.template meta.template.expression",
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
 			"name": "String interpolation",
 			"scope": [
 				"constant.character.escaped",
