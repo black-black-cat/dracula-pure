@@ -8,6 +8,10 @@ JavaScript
 
 ![screenshot](./assets/dracula-pure.png)
 
+JSX
+
+![jsx](./assets/jsx.png)
+
 JSON
 
 ![json](assets/json.png)
