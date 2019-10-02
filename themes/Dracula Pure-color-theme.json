@@ -33,8 +33,8 @@
             }
         },
         {
-            "name": "Built-in constant",
-            "scope": "constant.language, variable.language.this",
+            "name": "Built-in constant and built-in variable",
+            "scope": "constant.language, variable.language",
             "settings": {
                 "foreground": "#bd93f9"
             }
@@ -66,14 +66,14 @@
             }
         },
         {
-            "name": "template string interpolation",
+            "name": "Template string interpolation",
             "scope": "string.template meta.template.expression",
             "settings": {
                 "foreground": "#f8f8f2"
             }
         },
         {
-            "name": "interpolation begin and end",
+            "name": "Interpolation begin and end punctuation",
             "scope": "punctuation.definition.template-expression",
             "settings": {
                 "fontStyle": "",

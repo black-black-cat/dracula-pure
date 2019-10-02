@@ -2,7 +2,7 @@
     "name": "dracula-pure",
     "displayName": "Dracula Pure",
     "description": "Dracula syntax highlight comes with vscode default workbench colors.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "blackblackcat",
     "repository": "https://github.com/black-black-cat/dracula-pure",
     "icon": "icon.png",

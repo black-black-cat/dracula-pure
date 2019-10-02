@@ -33,8 +33,8 @@ export default colors => ({
 			}
 		},
 		{
-			'name': 'Built-in constant',
-			'scope': 'constant.language, variable.language.this',
+			'name': 'Built-in constant and built-in variable',
+			'scope': 'constant.language, variable.language',
 			'settings': {
 				'foreground': colors.purple
 			}
@@ -66,14 +66,14 @@ export default colors => ({
 			}
 		},
 		{
-            'name': 'template string interpolation',
+            'name': 'Template string interpolation',
 			'scope': 'string.template meta.template.expression',
 			'settings': {
 				'foreground': colors.foreground
 			}
         },
         {
-            'name': 'interpolation begin and end',
+            'name': 'Interpolation begin and end punctuation',
             'scope': 'punctuation.definition.template-expression',
             'settings': {
 				'fontStyle': '',
