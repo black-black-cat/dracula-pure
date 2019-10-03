@@ -133,6 +133,13 @@ export default colors => ({
 			}
 		},
 		{
+			'name': 'Instance',
+			'scope': 'entity.name.type.instance',
+			'settings': {
+				'foreground': colors.green
+			}
+		},
+		{
 			'name': 'Function name',
 			'scope': 'entity.name.function',
 			'settings': {

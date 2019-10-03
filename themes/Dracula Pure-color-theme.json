@@ -133,6 +133,13 @@
             }
         },
         {
+            "name": "Instance",
+            "scope": "entity.name.type.instance",
+            "settings": {
+                "foreground": "#50fa7b"
+            }
+        },
+        {
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {

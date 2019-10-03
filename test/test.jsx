@@ -3,9 +3,10 @@ import utils from './utils';
 import config from './config';
 /**
  * Constructor for sample code
- * @param {string} url - The URL to request
+ * @param {string} bar - The URL to request
+ * @param {String} url - The URL to request
  */
-function foo (bar) {
+function foo (bar, url) {
     switch (bar) {
         case 'foo':
             return `values is: ${bar.length}`
