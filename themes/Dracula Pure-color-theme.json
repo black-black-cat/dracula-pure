@@ -94,6 +94,12 @@
             }
         },
         {
+            "scope": "punctuation.section.embedded",
+            "settings": {
+                "foreground": "#ff79c6"
+            }
+        },
+        {
             "name": "Keyword",
             "scope": "keyword",
             "settings": {

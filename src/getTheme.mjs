@@ -94,6 +94,12 @@ export default colors => ({
 			}
 		},
 		{
+			'scope': 'punctuation.section.embedded',
+			'settings': {
+				'foreground': colors.pink
+			}
+		},
+		{
 			'name': 'Keyword',
 			'scope': 'keyword',
 			'settings': {
