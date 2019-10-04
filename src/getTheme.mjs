@@ -133,6 +133,14 @@ export default colors => ({
 			}
 		},
 		{
+			'name': 'Entity name type',
+			'scope': 'entity.name.type',
+			'settings': {
+				'fontStyle': 'underline',
+				'foreground': colors.green
+			}
+		},
+		{
 			'name': 'Instance',
 			'scope': 'entity.name.type.instance',
 			'settings': {

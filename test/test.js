@@ -59,4 +59,15 @@ var parser = document.createElement('a');
 parser.href = "http://example.com:3000/pathname/?search=test#hash";
 parser.hostname; // => "example.com"
 
-const temp = `123${parser.href}`
+const temp = `123${parser.href + 999}`
+
+class Foo {
+
+}
+
+let instance = new Foo()
+
+const obj = {
+    a: 'b',
+    b: 'c'
+}

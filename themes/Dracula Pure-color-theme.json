@@ -133,6 +133,14 @@
             }
         },
         {
+            "name": "Entity name type",
+            "scope": "entity.name.type",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#50fa7b"
+            }
+        },
+        {
             "name": "Instance",
             "scope": "entity.name.type.instance",
             "settings": {
