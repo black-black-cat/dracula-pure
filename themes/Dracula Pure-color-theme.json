@@ -123,14 +123,7 @@
             }
         },
         {
-            "scope": "entity",
-            "settings": {
-                "foreground": "#8be9fd"
-            }
-        },
-        {
-            "name": "Function name",
-            "scope": "entity.name.function",
+            "scope": "entity.name",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#50fa7b"

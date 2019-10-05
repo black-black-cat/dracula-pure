@@ -53,21 +53,21 @@ var proxy = function (fn, context) {
 
 Sound.play = function () { }
 Sound.prototype = { something }
-Sound.prototype.play = function () { }
-Sound.prototype.play = myfunc
+Sound.prototype.play = function () { };
+Sound.prototype.play = myfunc;
 var parser = document.createElement('a');
 parser.href = "http://example.com:3000/pathname/?search=test#hash";
 parser.hostname; // => "example.com"
 
-const temp = `123${parser.href + 999}`
+const temp = `123${parser.href + 999}`;
 
 class Foo {
 
 }
 
-let instance = new Foo()
+let instance = new Foo();
 
 const obj = {
     a: 'b',
     b: 'c'
-}
+};
