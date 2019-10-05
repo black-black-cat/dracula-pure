@@ -123,34 +123,9 @@
             }
         },
         {
-            "name": "Class name",
-            "scope": "entity.name.type.class",
+            "scope": "entity",
             "settings": {
-                "fontStyle": "underline",
-                "foreground": "#50fa7b"
-            }
-        },
-        {
-            "name": "Inherited class",
-            "scope": "entity.other.inherited-class",
-            "settings": {
-                "fontStyle": "italic underline",
-                "foreground": "#50fa7b"
-            }
-        },
-        {
-            "name": "Entity name type",
-            "scope": "entity.name.type",
-            "settings": {
-                "fontStyle": "underline",
-                "foreground": "#50fa7b"
-            }
-        },
-        {
-            "name": "Instance",
-            "scope": "entity.name.type.instance",
-            "settings": {
-                "foreground": "#50fa7b"
+                "foreground": "#8be9fd"
             }
         },
         {

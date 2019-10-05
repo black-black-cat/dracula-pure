@@ -123,6 +123,12 @@ export default colors => ({
 			}
 		},
 		{
+			'scope': 'entity',
+			'settings': {
+				'foreground': colors.cyan
+			}
+		},
+		/* {
 			'name': 'Class name',
 			'scope': 'entity.name.type.class',
 			'settings': {
@@ -152,7 +158,7 @@ export default colors => ({
 			'settings': {
 				'foreground': colors.green
 			}
-		},
+		}, */
 		{
 			'name': 'Function name',
 			'scope': 'entity.name.function',
