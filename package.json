@@ -2,7 +2,7 @@
     "name": "dracula-pure",
     "displayName": "Dracula Pure",
     "description": "Dracula syntax highlight comes with vscode default workbench colors.",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "publisher": "blackblackcat",
     "repository": "https://github.com/black-black-cat/dracula-pure",
     "icon": "icon.png",
@@ -21,6 +21,10 @@
                 "label": "Dracula Pure",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Dracula Pure-color-theme.json"
+            }, {
+                "label": "Aylin Syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aylin-syntax.json"
             }
         ]
     }

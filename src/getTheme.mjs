@@ -207,7 +207,7 @@ export default colors => ({
 				'support.class'
 			],
 			'settings': {
-				'fontStyle': ' italic',
+				'fontStyle': 'italic',
 				'foreground': colors.cyan
 			}
 		},

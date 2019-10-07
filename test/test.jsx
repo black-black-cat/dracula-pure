@@ -12,6 +12,7 @@ function foo (bar, url) {
             return `values is: ${bar.length}`
     }
 }
+foo('123')
 class Controls {/* ... */ }
 export default class App extends Component {
     constructor(props) {/* ... */ }
