@@ -51,9 +51,13 @@ var proxy = function (fn, context) {
     return proxy;
 };
 
+function Sound () {
+
+}
 Sound.play = function () { }
-Sound.prototype = { something }
+Sound.prototype.kk = { something }
 Sound.prototype.play = function () { };
+Sound.prototype.play();
 Sound.prototype.play = myfunc;
 var parser = document.createElement('a');
 parser.href = "http://example.com:3000/pathname/?search=test#hash";
@@ -69,5 +73,6 @@ let instance = new Foo();
 
 const obj = {
     a: 'b',
-    b: 'c'
+    b: 'c',
+    n: 33 || 123
 };

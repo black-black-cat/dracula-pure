@@ -124,7 +124,7 @@ export default colors => ({
 		},
 		/* {
 			'name': 'Class name',
-			'scope': 'entity.name.type.class',
+			'scope': 'entity.name.type.class, entity.name.class',
 			'settings': {
 				'fontStyle': 'underline',
 				'foreground': colors.green
