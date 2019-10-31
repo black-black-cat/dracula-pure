@@ -4,7 +4,7 @@ import config from './config';
 /**
  * Constructor for sample code
  * @param {string} bar - The URL to request
- * @param {String} url - The URL to request
+ * @param {String} url - The URL to request bbb
  */
 function foo (bar, url) {
     switch (bar) {

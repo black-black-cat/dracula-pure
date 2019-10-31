@@ -1,4 +1,3 @@
-
 // Cross-browser xml parsing
 var parseXML = function (data) {
     var xml, tmp;
@@ -55,7 +54,8 @@ function Sound () {
 
 }
 Sound.play = function () { }
-Sound.prototype.kk = { something }
+Sound.play()
+Sound.prototype = { something }
 Sound.prototype.play = function () { };
 Sound.prototype.play();
 Sound.prototype.play = myfunc;
@@ -74,5 +74,14 @@ let instance = new Foo();
 const obj = {
     a: 'b',
     b: 'c',
-    n: 33 || 123
+    c: false,
+    d: Infinity,
+    e: {
+        a: {
+            b: '',
+            c: []
+        }
+    }
 };
+
+obj.e.a.c.length == 0

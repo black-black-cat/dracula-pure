@@ -213,31 +213,31 @@ export { jwtSecret, List, ListItem, returnAllLists, router, User };
 export function formatStockChartData(stockChartDataInfos: any[]): any[] {
     return stockChartDataInfos.map(stockChartData => {
         return {
-            symbol: stockChartData.symbol,
+            symbol     : stockChartData.symbol,
             iexSymbolID: stockChartData.iexSymbolID,
-            qtSymbolID: stockChartData.qtSymbolID,
-            date: stockChartData.date,
-            minute: stockChartData.minute,
-            label: stockChartData.label,
-            candle: {
-                high: stockChartData.high,
-                low: stockChartData.low,
-                open: stockChartData.open,
+            qtSymbolID : stockChartData.qtSymbolID,
+            date       : stockChartData.date,
+            minute     : stockChartData.minute,
+            label      : stockChartData.label,
+            candle     : {
+                high : stockChartData.high,
+                low  : stockChartData.low,
+                open : stockChartData.open,
                 close: stockChartData.close
             },
-            volume: stockChartData.volume,
-            average: stockChartData.average,
-            notional: stockChartData.notional,
-            numberOfTrades: stockChartData.numberOfTrades,
-            marketHigh: stockChartData.marketHigh,
-            marketLow: stockChartData.marketLow,
-            marketAverage: stockChartData.marketAverage,
-            marketVolume: stockChartData.marketVolume,
-            marketNotional: stockChartData.marketNotional,
+            volume              : stockChartData.volume,
+            average             : stockChartData.average,
+            notional            : stockChartData.notional,
+            numberOfTrades      : stockChartData.numberOfTrades,
+            marketHigh          : stockChartData.marketHigh,
+            marketLow           : stockChartData.marketLow,
+            marketAverage       : stockChartData.marketAverage,
+            marketVolume        : stockChartData.marketVolume,
+            marketNotional      : stockChartData.marketNotional,
             marketNumberOfTrades: stockChartData.marketNumberOfTrades,
-            marketOpen: stockChartData.marketOpen,
-            marketClose: stockChartData.marketClose,
-            changeOverTime: stockChartData.changeOverTime,
+            marketOpen          : stockChartData.marketOpen,
+            marketClose         : stockChartData.marketClose,
+            changeOverTime      : stockChartData.changeOverTime,
             marketChangeOverTime: stockChartData.marketChangeOverTime
         };
     });
