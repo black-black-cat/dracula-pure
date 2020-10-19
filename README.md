@@ -1,17 +1,3 @@
 # dracula-pure
 
-Dracula syntax highlight comes with vscode default workbench colors.
-
-## Screenshots
-
-JavaScript
-
-![screenshot](./assets/dracula-pure.png)
-
-JSX
-
-![jsx](./assets/jsx.png)
-
-JSON
-
-![json](assets/json.png)
+[Dracula](https://tmtheme-editor.herokuapp.com/#!/editor/theme/Dracula) and [Summer Vacation](https://github.com/dannymcgee/vscode-summer-vacation-theme) are mixed together.

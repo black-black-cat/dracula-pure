@@ -7,7 +7,8 @@
     "repository": "https://github.com/black-black-cat/dracula-pure",
     "icon": "icon.png",
     "scripts": {
-        "start": "node --experimental-modules src/index.mjs",
+        "start": "node src/generate.js",
+        "startx": "node --experimental-modules src/index.mjs",
         "watch": "npm-watch"
     },
     "watch": {
@@ -25,11 +26,6 @@
                 "label": "Dracula Pure",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Dracula Pure-color-theme.json"
-            },
-            {
-                "label": "Aylin Syntax",
-                "uiTheme": "vs-dark",
-                "path": "./themes/aylin-syntax.json"
             }
         ]
     },

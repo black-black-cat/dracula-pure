@@ -50,13 +50,14 @@ var proxy = function (fn, context) {
     return proxy;
 };
 
-function Sound () {
-
+class Sound {
+    constructor() {
+    }
+    play () { }
+    static play () { }
 }
-Sound.play = function () { }
 Sound.play()
 Sound.prototype = { something }
-Sound.prototype.play = function () { };
 Sound.prototype.play();
 Sound.prototype.play = myfunc;
 var parser = document.createElement('a');
