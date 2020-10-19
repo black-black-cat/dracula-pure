@@ -1,8 +1,8 @@
 {
     "name": "dracula-pure",
     "displayName": "Dracula Pure",
-    "description": "Dracula syntax highlight comes with vscode default workbench colors.",
-    "version": "0.1.7",
+    "description": "Dracula and Summer Vacation are mixed together.",
+    "version": "0.2.0",
     "publisher": "blackblackcat",
     "repository": "https://github.com/black-black-cat/dracula-pure",
     "icon": "icon.png",
