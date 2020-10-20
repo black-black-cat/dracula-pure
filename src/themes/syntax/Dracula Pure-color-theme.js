@@ -23,6 +23,7 @@ tokens = {
 	tag: colors.pinkDark,
 	attribute: colors.green,
 	component: colors.yellow,
+	parameter: colors.orange,
 }
 
 module.exports = tokens
