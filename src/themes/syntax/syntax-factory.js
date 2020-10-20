@@ -12,13 +12,13 @@ function SyntaxFactory(tokens) {
 				foreground: tokens.foreground
 			}
 		},
-		
+
 		// Parameter
 		{
 			name: 'Parameter',
 			scope: 'variable.parameter',
 			settings: {
-				foreground: tokens.parameter
+				foreground: tokens.parameter || tokens.variable
 			}
 		},
 

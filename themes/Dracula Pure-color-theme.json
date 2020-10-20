@@ -11,6 +11,13 @@
 			}
 		},
 		{
+			"name": "Parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#ffb86c"
+			}
+		},
+		{
 			"name": "String",
 			"scope": [
 				"string",
